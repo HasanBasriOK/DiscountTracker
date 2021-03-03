@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mf03KarZR7o6qU1Zyni/Ms8rLKHZlb80QTuOyKJOtb9fkoyo/0LNotVFHlj4WJGHVuadutl8epIXmzB+megYeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\source\\repos\\DiscountTracker\\DiscountTracker.Api\\DiscountTracker.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
