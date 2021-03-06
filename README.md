@@ -11,6 +11,6 @@ Users can save the product they want to track the price of the product through t
 - PostgreSQL (for report db)
 - Docker
 
-## Docker Image Links
+:whale: ## Docker Image Links
 
 
