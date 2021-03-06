@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.Business", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.Api", "DiscountTracker.Api\DiscountTracker.Api.csproj", "{FEE5F1C3-860E-40D5-81FB-923408F620C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.MainService", "DiscountTracker.MainService\DiscountTracker.MainService.csproj", "{09518014-1A53-4525-802D-4584048A26E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.ReportService", "DiscountTracker.ReportService\DiscountTracker.ReportService.csproj", "{12BE620F-1804-4359-B5E8-0CCCF5CA7143}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{FEE5F1C3-860E-40D5-81FB-923408F620C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE5F1C3-860E-40D5-81FB-923408F620C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE5F1C3-860E-40D5-81FB-923408F620C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09518014-1A53-4525-802D-4584048A26E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09518014-1A53-4525-802D-4584048A26E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09518014-1A53-4525-802D-4584048A26E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09518014-1A53-4525-802D-4584048A26E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BE620F-1804-4359-B5E8-0CCCF5CA7143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BE620F-1804-4359-B5E8-0CCCF5CA7143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BE620F-1804-4359-B5E8-0CCCF5CA7143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BE620F-1804-4359-B5E8-0CCCF5CA7143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

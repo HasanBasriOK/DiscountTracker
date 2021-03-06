@@ -1,0 +1,9 @@
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/bin/Debug/netstandard2.0/DiscountTracker.Business.deps.json
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/bin/Debug/netstandard2.0/DiscountTracker.Business.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/bin/Debug/netstandard2.0/DiscountTracker.Business.pdb
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/obj/Debug/netstandard2.0/DiscountTracker.Business.csprojAssemblyReference.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/obj/Debug/netstandard2.0/DiscountTracker.Business.AssemblyInfoInputs.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/obj/Debug/netstandard2.0/DiscountTracker.Business.AssemblyInfo.cs
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/obj/Debug/netstandard2.0/DiscountTracker.Business.csproj.CoreCompileInputs.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/obj/Debug/netstandard2.0/DiscountTracker.Business.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/obj/Debug/netstandard2.0/DiscountTracker.Business.pdb

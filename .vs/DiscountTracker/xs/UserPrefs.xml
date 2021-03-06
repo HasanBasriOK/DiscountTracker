@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{FEE5F1C3-860E-40D5-81FB-923408F620C6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiscountTracker.ReportService/Program.cs">
+    <Files>
+      <File FileName="DiscountTracker.Entities/MongoDB/BaseEntity.cs" Line="12" Column="6" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtAnnouncement.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtCity.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtCountry.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtCounty.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtProduct.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtProductPriceHistory.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtUser.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtWebSite.cs" Line="14" Column="1" />
+      <File FileName="DiscountTracker.MainService/Program.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.ReportService/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DiscountTracker" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DiscountTracker.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.DiscountTracker.ReportService FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DiscountTracker.MainService FirstBuild="True" />
+</Properties>
