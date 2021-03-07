@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1qBHDqnzQ/24dLTf9jEO7S+nqRyGoW9msPam4QXhe/20CcNjW9DrKnvHbc+1fUh7GumaA9s6B49xogmLMo4RWA==",
+  "dgSpecHash": "CgvlAfdmdp0zgLuDT2o3ihIx5Nt3lEZxdwi7LgwB/f09n9nSnBdReg/42xNn66hErQ9Y1kOatbeFcOG8NJoJ/Q==",
   "success": true,
-  "projectFilePath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/DiscountTracker.Business.csproj",
+  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Business\\DiscountTracker.Business.csproj",
   "expectedPackageFiles": [
-    "/Users/winyoung/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/winyoung/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

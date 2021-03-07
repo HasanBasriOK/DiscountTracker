@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "eR58f57opzY9weHVaJP/ITiz8qZY5OMzzajFbUOmGV2PyhuE1/YhqMRbvVOPP4WA5PMdL42FU93In8MVBL//Fg==",
+  "dgSpecHash": "44S/Mly5RQmFYMCMhXwMPEN67CuQASz51zrFkUVnNnsTcvhiPXWJwz71hMopJJNT9KorxuoihNfOxoMV5qq9IQ==",
   "success": true,
-  "projectFilePath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/DiscountTracker.Api.csproj",
+  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Api\\DiscountTracker.Api.csproj",
   "expectedPackageFiles": [
-    "/Users/winyoung/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.10.9/microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\mongodb.bson\\2.12.0\\mongodb.bson.2.12.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\mongodb.driver\\2.12.0\\mongodb.driver.2.12.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\mongodb.driver.core\\2.12.0\\mongodb.driver.core.2.12.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.0\\mongodb.libmongocrypt.1.2.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }

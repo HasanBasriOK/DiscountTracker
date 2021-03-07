@@ -1,3 +1,4 @@
+using DiscountTracker.DataAccess.MongoDB;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,14 @@ namespace DiscountTracker.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<MongoDbSettings>(options =>
+            {
+                options.ConnectionString = Configuration
+                    .GetSection(nameof(MongoDbSettings) + ":" + MongoDbSettings.ConnectionStringValue).Value;
+                options.Database = Configuration
+                    .GetSection(nameof(MongoDbSettings) + ":" + MongoDbSettings.DatabaseValue).Value;
+            });
+            services.AddSingleton<IDtAnnouncementDal, DtAnnouncementMongoDbDal>();
             services.AddControllers();
         }
 
@@ -44,5 +53,7 @@ namespace DiscountTracker.Api
                 endpoints.MapControllers();
             });
         }
+
+    
     }
 }
