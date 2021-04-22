@@ -1,24 +1,27 @@
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/snappy32.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/snappy64.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/libzstd.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.DataAccess.deps.json
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.DataAccess.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.DataAccess.pdb
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.Entities.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.Entities.pdb
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.csprojAssemblyReference.cache
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.AssemblyInfoInputs.cache
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.AssemblyInfo.cs
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.csproj.CopyComplete
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.pdb
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.DataAccess.deps.json
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.DataAccess.dll
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.DataAccess.pdb
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.Entities.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/bin/Debug/netstandard2.0/DiscountTracker.Entities.pdb
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.csprojAssemblyReference.cache
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.AssemblyInfoInputs.cache
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.AssemblyInfo.cs
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.csproj.CoreCompileInputs.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.csproj.CopyComplete
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.dll
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.pdb
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\snappy32.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\snappy64.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\libzstd.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.DataAccess.deps.json
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.DataAccess.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.DataAccess.pdb
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.Entities.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.Entities.pdb
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csprojAssemblyReference.cache
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfoInputs.cache
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfo.cs
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csproj.CopyComplete
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.pdb

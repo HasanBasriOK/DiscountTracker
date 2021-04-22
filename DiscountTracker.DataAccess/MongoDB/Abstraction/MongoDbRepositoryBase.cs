@@ -17,8 +17,8 @@ namespace DiscountTracker.DataAccess.MongoDB
         protected MongoDbRepositoryBase(MongoDbSettings options)
         {
             this.settings = options;
-            var client = new MongoClient(this.settings.ConnectionString);
-            var db = client.GetDatabase(this.settings.Database);
+            var client = new MongoClient("mongodb://localhost:27017");
+            var db = client.GetDatabase("DiscountTracker");
             this.Collection = db.GetCollection<T>(typeof(T).Name.ToLowerInvariant());
         }
 

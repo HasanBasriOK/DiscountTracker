@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SbsfzL5vLbb1+zjTG6pFga0DALX7rXejB6dqyli0k3NwtoivGk22IzgDNB4PcyKmVew2QMuYdn7hJFBr/6beIg==",
+  "dgSpecHash": "xffWkwqCFZb3EvGl8XFyFMmXggjKVj52QdSXMzp2DvsQgvYbhedKcbiQ7HNb5ooGNOyf537ede1+9wgqL9aGRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.MainService\\DiscountTracker.MainService.csproj",
+  "projectFilePath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/DiscountTracker.MainService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

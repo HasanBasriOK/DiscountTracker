@@ -1,29 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.MainService\\DiscountTracker.MainService.csproj": {}
+    "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/DiscountTracker.MainService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.MainService\\DiscountTracker.MainService.csproj": {
+    "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/DiscountTracker.MainService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.MainService\\DiscountTracker.MainService.csproj",
+        "projectUniqueName": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/DiscountTracker.MainService.csproj",
         "projectName": "DiscountTracker.MainService",
-        "projectPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.MainService\\DiscountTracker.MainService.csproj",
-        "packagesPath": "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.MainService\\obj\\",
+        "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/DiscountTracker.MainService.csproj",
+        "packagesPath": "/Users/winyoung/.nuget/packages/",
+        "outputPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\WY - Hasan Basri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/winyoung/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

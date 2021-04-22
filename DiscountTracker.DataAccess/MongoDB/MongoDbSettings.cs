@@ -12,8 +12,8 @@ namespace DiscountTracker.DataAccess.MongoDB
         //Configuration için kullanılacak
         #region Const Values
 
-        public const string ConnectionStringValue = nameof(ConnectionString);
-        public const string DatabaseValue = nameof(Database);
+        public const string ConnectionStringValue = "mongodb://localhost:27017";
+        public const string DatabaseValue = "DiscountTracker";
 
         #endregion
     }

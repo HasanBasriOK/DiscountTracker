@@ -1,16 +1,31 @@
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.MainService.exe
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.MainService.deps.json
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.MainService.runtimeconfig.json
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.MainService.runtimeconfig.dev.json
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.MainService.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\ref\DiscountTracker.MainService.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.MainService.pdb
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.csprojAssemblyReference.cache
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.AssemblyInfoInputs.cache
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.AssemblyInfo.cs
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.csproj.CoreCompileInputs.cache
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\ref\DiscountTracker.MainService.dll
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.pdb
-C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.genruntimeconfig.cache
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.exe
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.deps.json
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.runtimeconfig.json
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.runtimeconfig.dev.json
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/ref/DiscountTracker.MainService.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.pdb
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.csprojAssemblyReference.cache
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.AssemblyInfoInputs.cache
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.AssemblyInfo.cs
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.csproj.CoreCompileInputs.cache
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/ref/DiscountTracker.MainService.dll
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.pdb
+C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.genruntimeconfig.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.deps.json
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.runtimeconfig.json
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.runtimeconfig.dev.json
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/ref/DiscountTracker.MainService.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/bin/Debug/net5.0/DiscountTracker.MainService.pdb
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.csprojAssemblyReference.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.AssemblyInfoInputs.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.AssemblyInfo.cs
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.csproj.CoreCompileInputs.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/ref/DiscountTracker.MainService.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.pdb
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/obj/Debug/net5.0/DiscountTracker.MainService.genruntimeconfig.cache

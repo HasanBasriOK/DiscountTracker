@@ -1,29 +1,160 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Business\\DiscountTracker.Business.csproj": {}
+    "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/DiscountTracker.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Business\\DiscountTracker.Business.csproj": {
+    "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/DiscountTracker.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Business\\DiscountTracker.Business.csproj",
+        "projectUniqueName": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/DiscountTracker.Business.csproj",
         "projectName": "DiscountTracker.Business",
-        "projectPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Business\\DiscountTracker.Business.csproj",
-        "packagesPath": "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Business\\obj\\",
+        "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/DiscountTracker.Business.csproj",
+        "packagesPath": "/Users/winyoung/.nuget/packages/",
+        "outputPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\WY - Hasan Basri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/winyoung/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/DiscountTracker.DataAccess.csproj": {
+                "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/DiscountTracker.DataAccess.csproj"
+              },
+              "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj": {
+                "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj"
+              },
+              "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/DiscountTracker.Utilities.csproj": {
+                "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/DiscountTracker.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "PostSharp": {
+              "target": "Package",
+              "version": "[6.9.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/DiscountTracker.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/DiscountTracker.DataAccess.csproj",
+        "projectName": "DiscountTracker.DataAccess",
+        "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/DiscountTracker.DataAccess.csproj",
+        "packagesPath": "/Users/winyoung/.nuget/packages/",
+        "outputPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/winyoung/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj": {
+                "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj",
+        "projectName": "DiscountTracker.Entities",
+        "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj",
+        "packagesPath": "/Users/winyoung/.nuget/packages/",
+        "outputPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/winyoung/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +173,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -59,7 +198,65 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/DiscountTracker.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/DiscountTracker.Utilities.csproj",
+        "projectName": "DiscountTracker.Utilities",
+        "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/DiscountTracker.Utilities.csproj",
+        "packagesPath": "/Users/winyoung/.nuget/packages/",
+        "outputPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/winyoung/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
