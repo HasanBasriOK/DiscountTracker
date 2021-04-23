@@ -6,6 +6,9 @@
 
   <ItemGroup>
     <Folder Include="PostgreSQL\" />
+    <Folder Include="Core\Result\" />
+    <Folder Include="Core\Result\Abstract\" />
+    <Folder Include="Core\Result\Concrete\" />
   </ItemGroup>
 
   <ItemGroup>

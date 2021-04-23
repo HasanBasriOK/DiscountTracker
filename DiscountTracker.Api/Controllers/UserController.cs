@@ -37,7 +37,7 @@ namespace DiscountTracker.Api.Controllers
                 return response;
             }
 
-            response.Data.User = createdUser.Result;
+            response.Data.User = createdUser.Data;
             
             return response;
         }
@@ -54,7 +54,7 @@ namespace DiscountTracker.Api.Controllers
                 return response;
             }
 
-            response.Data.User = user.Result;
+            response.Data.User = user.Data;
             
             return response;
         }

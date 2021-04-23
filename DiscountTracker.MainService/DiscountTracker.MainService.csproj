@@ -5,4 +5,16 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.33" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Managers\" />
+    <Folder Include="Managers\Abstraction\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DiscountTracker.Business\DiscountTracker.Business.csproj" />
+    <ProjectReference Include="..\DiscountTracker.Entities\DiscountTracker.Entities.csproj" />
+    <ProjectReference Include="..\DiscountTracker.Utilities\DiscountTracker.Utilities.csproj" />
+  </ItemGroup>
 </Project>

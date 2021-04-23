@@ -36,11 +36,12 @@ namespace DiscountTracker.DataAccess.MongoDB
 
         public virtual Task<T> GetByIdAsync(string id)
         {
-            return Collection.Find(x => x.Id == id).FirstOrDefaultAsync();
+            return Collection.Find(x => x.Id.ToString() == id).FirstOrDefaultAsync();
         }
 
         public virtual async Task<T> AddAsync(T entity)
         {
+            entity.Id = Guid.NewGuid().ToString();
             var options = new InsertOneOptions { BypassDocumentValidation = false };
             await Collection.InsertOneAsync(entity, options);
             return entity;
@@ -54,7 +55,7 @@ namespace DiscountTracker.DataAccess.MongoDB
 
         public virtual async Task<T> UpdateAsync(string id, T entity)
         {
-            return await Collection.FindOneAndReplaceAsync(x => x.Id == id, entity);
+            return await Collection.FindOneAndReplaceAsync(x => x.Id.ToString() == id, entity);
         }
 
         public virtual async Task<T> UpdateAsync(T entity, Expression<Func<T, bool>> predicate)
@@ -69,7 +70,7 @@ namespace DiscountTracker.DataAccess.MongoDB
 
         public virtual async Task<T> DeleteAsync(string id)
         {
-            return await Collection.FindOneAndDeleteAsync(x => x.Id == id);
+            return await Collection.FindOneAndDeleteAsync(x => x.Id.ToString() == id);
         }
 
         public virtual async Task<T> DeleteAsync(Expression<Func<T, bool>> filter)

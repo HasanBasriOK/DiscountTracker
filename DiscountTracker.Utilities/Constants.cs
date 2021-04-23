@@ -9,5 +9,8 @@ namespace DiscountTracker.Utilities
 
         public const string ClientEncryptionKey = "PssCliKeyDisTrac";
         public const string ServerEncryptionKey = "PssSrvKeyDisTrac";
+
+        public const string ThisEmailIsUsingAlready = "This Email Address is already using!";
+        public const string UserAlreadyTrackingThisProduct = "User already tracking this product";
     }
 }

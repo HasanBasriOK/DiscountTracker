@@ -45,10 +45,13 @@ namespace DiscountTracker.Api
             services.AddSingleton(typeof(MongoDbSettings));
             services.AddSingleton<IDtAnnouncementDal, DtAnnouncementMongoDbDal>();
             services.AddSingleton<IDtUserDal, DtUserMongoDbDal>();
+            services.AddSingleton<IDtProductDal, DtProductMongoDbDal>();
+
             #endregion
 
             #region Business 
             services.AddSingleton<IUserService, UserService>();
+            services.AddSingleton<IProductService, ProductService>();
             #endregion
 
            

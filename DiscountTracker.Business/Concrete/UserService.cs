@@ -1,8 +1,10 @@
 ﻿using System;
+using System.IO;
 using System.Threading.Tasks;
 using DiscountTracker.Business.Abstraction;
 using DiscountTracker.Business.Aspects;
 using DiscountTracker.DataAccess.MongoDB.Abstraction;
+using DiscountTracker.Entities.Core;
 using DiscountTracker.Entities.Dto;
 using DiscountTracker.Entities.MongoDB;
 using DiscountTracker.Utilities;
@@ -20,16 +22,22 @@ namespace DiscountTracker.Business.Concrete
         }
 
 
-        [HandleException]
-        public Task<DtUser> Login(LoginRequest request)
+        [HandleExceptionAspect]
+        public IDataResult<DtUser> Login(LoginRequest request)
         {
             var password = Encryption.Encrypt(Encryption.Decrypt(request.Password, Constants.ClientEncryptionKey),Constants.ServerEncryptionKey);
-            return _userDal.GetAsync(x => x.Email == request.Email && x.Password == password);
+            return new SuccessDataResult<DtUser>(_userDal.GetAsync(x => x.Email == request.Email && x.Password == password).Result);
         }
 
-        [HandleException]
-        public Task<DtUser> CreateUser(CreateUserRequest request)
+        [HandleExceptionAspect]
+        public IDataResult<DtUser> CreateUser(CreateUserRequest request)
         {
+
+            if (_userDal.Get(x=> x.Email==request.Email) != null)
+            {
+                return new ErrorDataResult<DtUser>(Constants.ThisEmailIsUsingAlready);
+            }
+
             var user = new DtUser();
             user.BirthDate = request.BirthDate;
             user.DeviceId = request.DeviceId;
@@ -42,7 +50,7 @@ namespace DiscountTracker.Business.Concrete
             user.RegisterDate = DateTime.Now;
             user.Password = Encryption.Encrypt(Encryption.Decrypt(request.Password, Constants.ClientEncryptionKey), Constants.ServerEncryptionKey);
 
-            return _userDal.AddAsync(user);
+            return new SuccessDataResult<DtUser>(_userDal.AddAsync(user).Result);
         }
 
     }

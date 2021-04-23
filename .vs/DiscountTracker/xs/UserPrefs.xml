@@ -1,27 +1,15 @@
 ﻿<Properties StartupConfiguration="{FEE5F1C3-860E-40D5-81FB-923408F620C6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiscountTracker.Business/Concrete/UserService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiscountTracker.MainService/Program.cs">
     <Files>
-      <File FileName="DiscountTracker.Entities/MongoDB/DtCity.cs" Line="1" Column="1" />
-      <File FileName="DiscountTracker.Api/Controllers/UserController.cs" Line="46" Column="15" />
-      <File FileName="DiscountTracker.DataAccess/MongoDB/Abstraction/IDtAnnouncementDal.cs" />
-      <File FileName="DiscountTracker.DataAccess/MongoDB/Repositories/DtAnnouncementMongoDbDal.cs" Line="1" Column="1" />
-      <File FileName="DiscountTracker.DataAccess/MongoDB/Repositories/DtUserMongoDbDal.cs" Line="1" Column="1" />
-      <File FileName="DiscountTracker.Utilities/EncryptionHelpers/Encryption.cs" Line="40" Column="41" />
-      <File FileName="DiscountTracker.Utilities/Logger/LogLevel.cs" Line="11" Column="6" />
-      <File FileName="DiscountTracker.Utilities/Logger/DatabaseLogger.cs" Line="16" Column="1" />
-      <File FileName="DiscountTracker.Utilities/Logger/FileLogger.cs" Line="62" Column="29" />
-      <File FileName="DiscountTracker.Api/Startup.cs" Line="36" Column="34" />
-      <File FileName="DiscountTracker.Utilities/Logger/ILogger.cs" Line="6" Column="60" />
-      <File FileName="DiscountTracker.Business/Concrete/UserService.cs" Line="25" Column="10" />
-      <File FileName="DiscountTracker.DataAccess/MongoDB/MongoDbSettings.cs" Line="16" Column="62" />
-      <File FileName="DiscountTracker.DataAccess/MongoDB/Abstraction/IRepository.cs" Line="1" Column="1" />
-      <File FileName="DiscountTracker.DataAccess/MongoDB/Abstraction/MongoDbRepositoryBase.cs" Line="21" Column="58" />
-      <File FileName="DiscountTracker.Api/Program.cs" Line="16" Column="1" />
-      <File FileName="DiscountTracker.Business/Abstraction/IUserService.cs" Line="1" Column="1" />
-      <File FileName="DiscountTracker.Entities/Dto/CreateUserRequest.cs" Line="4" Column="18" />
-      <File FileName="DiscountTracker.Business/Aspects/HandleException.cs" Line="14" Column="53" />
-      <File FileName="DiscountTracker.Utilities/Constants.cs" Line="1" Column="1" />
-      <File FileName="DiscountTracker.Entities/Dto/CreateUserResponse.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtCity.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="DiscountTracker.Api/Controllers/UserController.cs" />
+      <File FileName="DiscountTracker.MainService/Managers/Abstraction/ECommerceManager.cs" />
+      <File FileName="DiscountTracker.Entities/MongoDB/DtProduct.cs" Line="23" Column="1" />
+      <File FileName="DiscountTracker.Api/Controllers/ProductController.cs" Line="27" Column="1" />
+      <File FileName="DiscountTracker.Entities/Dto/TrackProductResponse.cs" />
+      <File FileName="DiscountTracker.Api/Startup.cs" Line="51" Column="1" />
+      <File FileName="DiscountTracker.Business/Concrete/ProductService.cs" Line="16" Column="52" />
+      <File FileName="DiscountTracker.MainService/Program.cs" Line="19" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,25 +20,24 @@
             </Node>
             <Node name="DiscountTracker.Business" expanded="True">
               <Node name="Abstraction" expanded="True" />
-              <Node name="Aspects" expanded="True" />
-              <Node name="Concrete" expanded="True">
-                <Node name="UserService.cs" selected="True" />
-              </Node>
+              <Node name="Concrete" expanded="True" />
             </Node>
             <Node name="DiscountTracker.DataAccess" expanded="True">
-              <Node name="Core" expanded="True" />
               <Node name="MongoDB" expanded="True">
                 <Node name="Abstraction" expanded="True" />
                 <Node name="Repositories" expanded="True" />
               </Node>
             </Node>
             <Node name="DiscountTracker.Entities" expanded="True">
-              <Node name="Dto" expanded="True" />
+              <Node name="Core" expanded="True" />
+              <Node name="MongoDB" expanded="True" />
             </Node>
-            <Node name="DiscountTracker.Utilities" expanded="True">
-              <Node name="EncryptionHelpers" expanded="True" />
-              <Node name="Logger" expanded="True" />
+            <Node name="DiscountTracker.MainService" expanded="True">
+              <Node name="Managers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
+            <Node name="DiscountTracker.TestApp" expanded="True" />
+            <Node name="DiscountTracker.Utilities" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -62,6 +49,13 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/Controllers/UserController.cs" relfile="DiscountTracker.Api/Controllers/UserController.cs" line="29" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Aspects/HandleException.cs" relfile="DiscountTracker.Business/Aspects/HandleException.cs" line="20" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/Controllers/UserController.cs" relfile="DiscountTracker.Api/Controllers/UserController.cs" line="49" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Aspects/HandleException.cs" relfile="DiscountTracker.Business/Aspects/HandleException.cs" line="16" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Concrete/UserService.cs" relfile="DiscountTracker.Business/Concrete/UserService.cs" line="27" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Aspects/HandleException.cs" relfile="DiscountTracker.Business/Aspects/HandleException.cs" line="25" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/Controllers/ProductController.cs" relfile="DiscountTracker.Api/Controllers/ProductController.cs" line="25" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Concrete/ProductService.cs" relfile="DiscountTracker.Business/Concrete/ProductService.cs" line="26" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
