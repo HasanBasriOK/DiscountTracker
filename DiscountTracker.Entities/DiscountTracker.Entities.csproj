@@ -9,6 +9,9 @@
     <Folder Include="Core\Result\" />
     <Folder Include="Core\Result\Abstract\" />
     <Folder Include="Core\Result\Concrete\" />
+    <Folder Include="Dto\Product\" />
+    <Folder Include="Dto\User\" />
+    <Folder Include="Dto\Announcement\" />
   </ItemGroup>
 
   <ItemGroup>

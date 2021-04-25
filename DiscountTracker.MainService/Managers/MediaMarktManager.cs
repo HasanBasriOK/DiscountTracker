@@ -5,19 +5,19 @@ using HtmlAgilityPack;
 
 namespace DiscountTracker.MainService.Managers
 {
-    public class VatanManager:IECommerceManager
+    public class MediaMarktManager : IECommerceManager
     {
         public double GetPrice(string productUrl)
         {
+            double price = 0;
             Uri url = new Uri(productUrl);
             WebClient client = new WebClient();
-            string html = client.DownloadString(url); 
+            string html = client.DownloadString(url);
 
             HtmlAgilityPack.HtmlDocument document = new HtmlAgilityPack.HtmlDocument();
-            document.LoadHtml(html); 
-            HtmlNode priceNode = document.DocumentNode.SelectSingleNode("//span[@class='product-list__price']");
-
-            var price = Convert.ToDouble(priceNode.InnerHtml);
+            document.LoadHtml(html);
+            HtmlNode priceNode = document.DocumentNode.SelectSingleNode("//meta[@itemprop='price']");
+            price = priceNode.GetAttributeValue("content", 0);
 
             return price;
 

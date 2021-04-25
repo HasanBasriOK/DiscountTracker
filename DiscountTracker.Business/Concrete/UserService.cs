@@ -9,6 +9,7 @@ using DiscountTracker.Entities.Dto;
 using DiscountTracker.Entities.MongoDB;
 using DiscountTracker.Utilities;
 using DiscountTracker.Utilities.EncryptionHelpers;
+using System.Linq;
 
 namespace DiscountTracker.Business.Concrete
 {
@@ -33,7 +34,7 @@ namespace DiscountTracker.Business.Concrete
         public IDataResult<DtUser> CreateUser(CreateUserRequest request)
         {
 
-            if (_userDal.Get(x=> x.Email==request.Email) != null)
+            if (_userDal.Get(x=> x.Email==request.Email).FirstOrDefault() != null)
             {
                 return new ErrorDataResult<DtUser>(Constants.ThisEmailIsUsingAlready);
             }

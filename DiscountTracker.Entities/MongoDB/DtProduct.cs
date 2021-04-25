@@ -11,12 +11,14 @@ namespace DiscountTracker.Entities.MongoDB
         public string Url { get; set; }
         public double CurrentPrice { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DtUser CreatedUser { get; set; }
-        public List<DtUser> FollowerList { get; set; }
+        public string CreatedUser { get; set; }
+        public List<string> FollowerList { get; set; }
+        public List<DtProductPriceHistory> PriceHistory { get; set; }
 
         public DtProduct()
         {
-            this.FollowerList = new List<DtUser>();
+            this.FollowerList = new List<string>();
+            this.PriceHistory = new List<DtProductPriceHistory>();
         }
     }
 }

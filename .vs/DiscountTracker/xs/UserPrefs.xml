@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{FEE5F1C3-860E-40D5-81FB-923408F620C6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiscountTracker.MainService/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiscountTracker.MainService/Managers/Abstraction/ECommerceManager.cs">
     <Files>
-      <File FileName="DiscountTracker.Entities/MongoDB/DtCity.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="DiscountTracker.Api/Controllers/UserController.cs" />
-      <File FileName="DiscountTracker.MainService/Managers/Abstraction/ECommerceManager.cs" />
-      <File FileName="DiscountTracker.Entities/MongoDB/DtProduct.cs" Line="23" Column="1" />
-      <File FileName="DiscountTracker.Api/Controllers/ProductController.cs" Line="27" Column="1" />
-      <File FileName="DiscountTracker.Entities/Dto/TrackProductResponse.cs" />
-      <File FileName="DiscountTracker.Api/Startup.cs" Line="51" Column="1" />
-      <File FileName="DiscountTracker.Business/Concrete/ProductService.cs" Line="16" Column="52" />
-      <File FileName="DiscountTracker.MainService/Program.cs" Line="19" Column="22" />
+      <File FileName="DiscountTracker.Api/Controllers/UserController.cs" Line="31" Column="1" />
+      <File FileName="DiscountTracker.MainService/Managers/Abstraction/ECommerceManager.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.Api/Controllers/ProductController.cs" Line="34" Column="14" />
+      <File FileName="DiscountTracker.Api/Startup.cs" />
+      <File FileName="DiscountTracker.MainService/Program.cs" Line="46" Column="29" />
+      <File FileName="DiscountTracker.MainService/Managers/MediaMarktManager.cs" />
+      <File FileName="DiscountTracker.MainService/Managers/VatanManager.cs" />
+      <File FileName="DiscountTracker.Business/Concrete/UserService.cs" Line="54" Column="1" />
+      <File FileName="DiscountTracker.MainService/Managers/HepsiburadaManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,16 +25,20 @@
             <Node name="DiscountTracker.DataAccess" expanded="True">
               <Node name="MongoDB" expanded="True">
                 <Node name="Abstraction" expanded="True" />
-                <Node name="Repositories" expanded="True" />
               </Node>
             </Node>
             <Node name="DiscountTracker.Entities" expanded="True">
               <Node name="Core" expanded="True" />
-              <Node name="MongoDB" expanded="True" />
+              <Node name="MongoDB" expanded="True">
+                <Node name="Abstraction" expanded="True" />
+              </Node>
             </Node>
             <Node name="DiscountTracker.MainService" expanded="True">
-              <Node name="Managers" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Managers" expanded="True">
+                <Node name="Abstraction" expanded="True">
+                  <Node name="ECommerceManager.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
             <Node name="DiscountTracker.TestApp" expanded="True" />
             <Node name="DiscountTracker.Utilities" expanded="True" />
@@ -52,10 +56,10 @@
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Aspects/HandleException.cs" relfile="DiscountTracker.Business/Aspects/HandleException.cs" line="20" column="1" />
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/Controllers/UserController.cs" relfile="DiscountTracker.Api/Controllers/UserController.cs" line="49" column="1" />
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Aspects/HandleException.cs" relfile="DiscountTracker.Business/Aspects/HandleException.cs" line="16" column="1" />
-      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Concrete/UserService.cs" relfile="DiscountTracker.Business/Concrete/UserService.cs" line="27" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Concrete/UserService.cs" relfile="DiscountTracker.Business/Concrete/UserService.cs" line="28" column="1" />
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Aspects/HandleException.cs" relfile="DiscountTracker.Business/Aspects/HandleException.cs" line="25" column="1" />
-      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/Controllers/ProductController.cs" relfile="DiscountTracker.Api/Controllers/ProductController.cs" line="25" column="1" />
-      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Concrete/ProductService.cs" relfile="DiscountTracker.Business/Concrete/ProductService.cs" line="26" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/Managers/MediaMarktManager.cs" relfile="DiscountTracker.MainService/Managers/MediaMarktManager.cs" line="11" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/Controllers/ProductController.cs" relfile="DiscountTracker.Api/Controllers/ProductController.cs" line="41" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

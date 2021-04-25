@@ -10,6 +10,8 @@ namespace DiscountTracker.Business.Abstraction
     public interface IProductService
     {
         Result TrackProduct(TrackProductRequest request);
-        IDataResult<List<DtProduct>> GetActiveProducts(Expression<Func<DtProduct, bool>> filter = null);
+        DataResult<List<DtProduct>> GetActiveProducts(Expression<Func<DtProduct, bool>> filter = null);
+        DataResult<List<DtProduct>> GetProductListByFollowingUser(string userId);
+        Result AddHistory(string productId,double price);
     }
 }

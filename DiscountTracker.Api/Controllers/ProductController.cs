@@ -20,6 +20,7 @@ namespace DiscountTracker.Api.Controllers
         {
             _productService = productService;
         }
+
         [HttpPost("TrackProduct")]
         public ApiResponse<TrackProductResponse> TrackProduct(TrackProductRequest request)
         {
@@ -34,5 +35,26 @@ namespace DiscountTracker.Api.Controllers
 
             return response;
         }
+
+        [HttpPost("GetMyProducts")]
+        public ApiResponse<GetMyProductsResponse> GetMyProducts(GetMyProductsRequest request)
+        {
+            var response = new ApiResponse<GetMyProductsResponse>();
+
+            var result = _productService.GetProductListByFollowingUser(request.UserId);
+
+            if (result.Success)
+            {
+                response.Data.Products = result.Data;
+            }
+            else
+            {
+                response.IsSuccess = false;
+                response.ErrorList.Add(new ApiError() { ErrorMessage=result.Message });
+            }
+
+            return response;
+        }
+
     }
 }

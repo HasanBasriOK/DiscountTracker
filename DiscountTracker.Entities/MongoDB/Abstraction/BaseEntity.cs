@@ -13,5 +13,6 @@ namespace DiscountTracker.Entities.MongoDB
         public string Id { get; set; }
         [BsonElement(Order = 99)]
         public bool IsTransferred { get; set; }
+
     }
 }
