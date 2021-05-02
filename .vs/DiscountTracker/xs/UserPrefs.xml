@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{FEE5F1C3-860E-40D5-81FB-923408F620C6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DiscountTracker.MainService/Managers/Abstraction/ECommerceManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiscountTracker.MainService/Managers/HepsiburadaManager.cs">
     <Files>
       <File FileName="DiscountTracker.Api/Controllers/UserController.cs" Line="31" Column="1" />
-      <File FileName="DiscountTracker.MainService/Managers/Abstraction/ECommerceManager.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.MainService/Managers/Abstraction/ECommerceManager.cs" Line="9" Column="1" />
       <File FileName="DiscountTracker.Api/Controllers/ProductController.cs" Line="34" Column="14" />
       <File FileName="DiscountTracker.Api/Startup.cs" />
-      <File FileName="DiscountTracker.MainService/Program.cs" Line="46" Column="29" />
-      <File FileName="DiscountTracker.MainService/Managers/MediaMarktManager.cs" />
-      <File FileName="DiscountTracker.MainService/Managers/VatanManager.cs" />
+      <File FileName="DiscountTracker.MainService/Program.cs" Line="18" Column="1" />
+      <File FileName="DiscountTracker.MainService/Managers/MediaMarktManager.cs" Line="10" Column="1" />
+      <File FileName="DiscountTracker.MainService/Managers/VatanManager.cs" Line="20" Column="62" />
       <File FileName="DiscountTracker.Business/Concrete/UserService.cs" Line="54" Column="1" />
-      <File FileName="DiscountTracker.MainService/Managers/HepsiburadaManager.cs" Line="1" Column="1" />
+      <File FileName="DiscountTracker.MainService/Managers/HepsiburadaManager.cs" Line="34" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -35,9 +35,8 @@
             </Node>
             <Node name="DiscountTracker.MainService" expanded="True">
               <Node name="Managers" expanded="True">
-                <Node name="Abstraction" expanded="True">
-                  <Node name="ECommerceManager.cs" selected="True" />
-                </Node>
+                <Node name="Abstraction" expanded="True" />
+                <Node name="HepsiburadaManager.cs" selected="True" />
               </Node>
             </Node>
             <Node name="DiscountTracker.TestApp" expanded="True" />
@@ -60,6 +59,7 @@
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Business/Aspects/HandleException.cs" relfile="DiscountTracker.Business/Aspects/HandleException.cs" line="25" column="1" />
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/Managers/MediaMarktManager.cs" relfile="DiscountTracker.MainService/Managers/MediaMarktManager.cs" line="11" column="1" />
       <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/Controllers/ProductController.cs" relfile="DiscountTracker.Api/Controllers/ProductController.cs" line="41" column="1" />
+      <Breakpoint file="/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.MainService/Program.cs" relfile="DiscountTracker.MainService/Program.cs" line="18" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
