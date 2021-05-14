@@ -46,3 +46,12 @@
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/obj/Debug/net5.0/ref/DiscountTracker.Api.dll
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/obj/Debug/net5.0/DiscountTracker.Api.pdb
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Api/obj/Debug/net5.0/DiscountTracker.Api.genruntimeconfig.cache
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.csprojAssemblyReference.cache
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.AssemblyInfoInputs.cache
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.AssemblyInfo.cs
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.csproj.CoreCompileInputs.cache
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.dll
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\ref\DiscountTracker.Api.dll
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.pdb

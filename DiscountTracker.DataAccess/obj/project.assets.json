@@ -625,32 +625,36 @@
     ]
   },
   "packageFolders": {
-    "/Users/winyoung/.nuget/packages/": {}
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/DiscountTracker.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.DataAccess\\DiscountTracker.DataAccess.csproj",
       "projectName": "DiscountTracker.DataAccess",
-      "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/DiscountTracker.DataAccess.csproj",
-      "packagesPath": "/Users/winyoung/.nuget/packages/",
-      "outputPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/",
+      "projectPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.DataAccess\\DiscountTracker.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/winyoung/.config/NuGet/NuGet.Config"
+        "C:\\Users\\WY - Hasan Basri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj": {
-              "projectPath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Entities/DiscountTracker.Entities.csproj"
+            "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Entities\\DiscountTracker.Entities.csproj": {
+              "projectPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Entities\\DiscountTracker.Entities.csproj"
             }
           }
         }
@@ -690,7 +694,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

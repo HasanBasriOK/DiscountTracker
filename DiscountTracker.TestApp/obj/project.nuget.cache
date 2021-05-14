@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "sCgE4OtPC1PAN/frylv/RsQpkpt/22MeAwyoftYhMTR3QfmwnTOnm/3H12AJNROI1eg+INHS2kV2rS1l9Z0lVw==",
+  "dgSpecHash": "oiDinBwOoRXh3Bx9d4g0YgyFF9oNRO34yNgd5bXLraHUulVCbkoQLWmrdoLBOh+YvT4+qlcbj1weJzf8yD3xSA==",
   "success": true,
-  "projectFilePath": "/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.TestApp/DiscountTracker.TestApp.csproj",
+  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.TestApp\\DiscountTracker.TestApp.csproj",
   "expectedPackageFiles": [
-    "/Users/winyoung/.nuget/packages/log4net/2.0.12/log4net.2.0.12.nupkg.sha512",
-    "/Users/winyoung/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "/Users/winyoung/.nuget/packages/system.configuration.configurationmanager/4.5.0/system.configuration.configurationmanager.4.5.0.nupkg.sha512",
-    "/Users/winyoung/.nuget/packages/system.security.accesscontrol/4.5.0/system.security.accesscontrol.4.5.0.nupkg.sha512",
-    "/Users/winyoung/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
-    "/Users/winyoung/.nuget/packages/system.security.permissions/4.5.0/system.security.permissions.4.5.0.nupkg.sha512",
-    "/Users/winyoung/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512"
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

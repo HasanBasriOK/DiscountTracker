@@ -25,3 +25,6 @@ C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataA
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.csproj.CopyComplete
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.dll
 /Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.DataAccess/obj/Debug/netstandard2.0/DiscountTracker.DataAccess.pdb
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfoInputs.cache
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfo.cs
+C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csproj.CoreCompileInputs.cache
