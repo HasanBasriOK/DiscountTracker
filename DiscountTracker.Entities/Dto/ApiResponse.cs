@@ -14,6 +14,7 @@ namespace DiscountTracker.Entities.Dto
         {
             this.ErrorList = new List<ApiError>();
             this.Data = new T();
+            this.IsSuccess = true;
         }
     }
 }

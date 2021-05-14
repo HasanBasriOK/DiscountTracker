@@ -1,0 +1,9 @@
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/bin/Debug/netstandard2.1/DiscountTracker.Utilities.deps.json
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/bin/Debug/netstandard2.1/DiscountTracker.Utilities.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/bin/Debug/netstandard2.1/DiscountTracker.Utilities.pdb
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/obj/Debug/netstandard2.1/DiscountTracker.Utilities.csprojAssemblyReference.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/obj/Debug/netstandard2.1/DiscountTracker.Utilities.AssemblyInfoInputs.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/obj/Debug/netstandard2.1/DiscountTracker.Utilities.AssemblyInfo.cs
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/obj/Debug/netstandard2.1/DiscountTracker.Utilities.csproj.CoreCompileInputs.cache
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/obj/Debug/netstandard2.1/DiscountTracker.Utilities.dll
+/Users/winyoung/Desktop/Hasan Basri/github/DiscountTracker/DiscountTracker.Utilities/obj/Debug/netstandard2.1/DiscountTracker.Utilities.pdb

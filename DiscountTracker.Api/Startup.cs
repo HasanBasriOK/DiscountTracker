@@ -1,4 +1,9 @@
+using DiscountTracker.Business.Abstraction;
+using DiscountTracker.Business.Concrete;
 using DiscountTracker.DataAccess.MongoDB;
+using DiscountTracker.DataAccess.MongoDB.Abstraction;
+using DiscountTracker.DataAccess.MongoDB.Repositories;
+using DiscountTracker.Utilities.Logger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +37,25 @@ namespace DiscountTracker.Api
                 options.Database = Configuration
                     .GetSection(nameof(MongoDbSettings) + ":" + MongoDbSettings.DatabaseValue).Value;
             });
+          
+            services.AddSingleton<Utilities.Logger.ILogger, FileLogger>();
+
+
+            #region Data Access
+            services.AddSingleton(typeof(MongoDbSettings));
             services.AddSingleton<IDtAnnouncementDal, DtAnnouncementMongoDbDal>();
+            services.AddSingleton<IDtUserDal, DtUserMongoDbDal>();
+            services.AddSingleton<IDtProductDal, DtProductMongoDbDal>();
+
+            #endregion
+
+            #region Business 
+            services.AddSingleton<IUserService, UserService>();
+            services.AddSingleton<IProductService, ProductService>();
+            #endregion
+
+           
+
             services.AddControllers();
         }
 

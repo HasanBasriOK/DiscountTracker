@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
@@ -11,7 +11,19 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DiscountTracker.DataAccess\DiscountTracker.DataAccess.csproj" />
+    <ProjectReference Include="..\DiscountTracker.Utilities\DiscountTracker.Utilities.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\DiscountTracker.Entities\DiscountTracker.Entities.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\DiscountTracker.Business\DiscountTracker.Business.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Filters\" />
+  </ItemGroup>
 </Project>
