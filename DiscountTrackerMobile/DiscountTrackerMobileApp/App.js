@@ -28,6 +28,7 @@ import LoginScreen from "../DiscountTrackerMobileApp/src/screens/Login/index"
 import MainPage from "../DiscountTrackerMobileApp/src/screens/MainPage/index"
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import {createStackNavigator} from '@react-navigation/stack';
 
 const Tab = createBottomTabNavigator();
 
@@ -96,7 +97,6 @@ const App = () => {
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="HomeScreen" component={HomeTabs}/>
     </Stack.Navigator>
-    <Toast ref={(ref) => global['toast'] = ref} />
   </NavigationContainer>
   );
 };

@@ -11,37 +11,32 @@ import { Input, CheckBox, Button } from 'react-native-elements';
 import { useNavigation } from '@react-navigation/native';
 import md5 from "react-native-md5";
 import loginRequest from "../../helpers/userApiHelper"
-import SQLite, { SQLiteDatabase, ResultSet } from 'react-native-sqlite-storage'
+import { openDatabase } from 'react-native-sqlite-storage';
 import { createSemanticDiagnosticsBuilderProgram } from 'typescript';
 
+var db = openDatabase({ name: 'SchoolDatabase.db' });
 
 const LoginScreen = () => {
-    let db = SQLiteDatabase();
     const navigation = useNavigation();
 
-    //-----------------------------Constructors Start------------------------------------
+    //#region Constructors
 
     useEffect(() => {
-        SQLite.enablePromise(true);
-        SQLite.openDatabase({ name: 'discountTracker.db', location: 'Documents' })
-            .then(dbRes => { db = dbRes; dbOpened(); })
-            .catch(e => genericError(e));
+        //check user data from sqlite database
+        //is exist any user play login process
+        //is not exist any user dont do anything
+        checkUserForFirstLoad();
     }, []);
 
-    //-----------------------------Constructors End------------------------------------
+    //#endregion
 
-
-
-    //-----------------------------States Start-------------------------------------
-    const [rememberMe, setRememberMe] = useState(false);
+    //#region States 
+    const [rememberMe, setRememberMe] = useState();
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
-    //-----------------------------States End----------------------------------------
+    //#endregion
 
-
-
-
-    //-----------------------------Control Events Start------------------------------
+    //#region Control Events
 
     const rememberMeClick = () => {
         console.log("Remember me click... Value :" + rememberMe);
@@ -65,27 +60,23 @@ const LoginScreen = () => {
             var encryptedPassword = md5.str_md5(password.trim());
             var username = email.trim();
 
-            loginRequest(username, password, loginCallback);
-
-            //Call Api
+            loginRequest(username, encryptedPassword, loginCallback);
         }
     }
     // this.props.navigation.navigate('HomeScreen');
 
-    //-----------------------------Control Events End--------------------------------
+    //#endregion
 
-
-
-
-    //-----------------------------Custom Functions Start----------------------------
+    //#region Custom Functions 
 
     const loginCallback = (response, isErrorOccured = false) => {
         if (!isErrorOccured) {
             if (rememberMe) {
-
+                saveUserToSqlite();
             }
-
-            navigation.navigate("MainPage");
+            else {
+                this.props.navigation.navigate("MainPage");
+            }
         }
         else {
             alert("İşlem gerçekleştirilirken hata oluştu");
@@ -94,61 +85,99 @@ const LoginScreen = () => {
 
     const genericError = (e) => {
         console.warn('Error: ' + JSON.stringify(e));
-      };
+    };
+
+    const afterRunQuerySuccess = (tx, res) => {
+        console.log("tx : " + JSON.stringify(tx));
+        console.log("res:" + JSON.stringify(res));
+        // if(res.rows.length >0 ){
+        //     for (let i = 0; i < res.rows.length; i++) {
+        //         var item = res.rows.item(i);
+        //         console.log(item);
+
+        //       }
+        // }
+    }
+
+    const afterRunQueryError = (error) => {
+        console.log("error :" + JSON.stringify(error));
+    }
 
     const dbOpened = () => {
         console.log('Creating table...');
-        db.executeSql(
-            `CREATE TABLE UserInformation(
-            EMAIL           TEXT    NOT NULL,
-            PASSWORD            INT     NOT NULL
-          );`,
-        )
-            .then(result => console.log("Table Created"))
-            .catch(e => {
-                genericError(e);
-            });
+        db.transaction((txn) => {
+            txn.executeSql(
+                `CREATE TABLE IF NOT EXISTS UserInformation(
+                EMAIL           TEXT    NOT NULL,
+                PASSWORD            INT     NOT NULL
+              );`, [], afterRunQuerySuccess, afterRunQueryError
+            )
+        })
     }
 
-    const insertUserInfo = (username,password) => {
-        console.log('Inserting records...');
-        db.executeSql(
-            `INSERT INTO UserInformation VALUES('${username}','${password}')
-          ;`,
-        )
-            .then(result => recordsInserted(result))
-            .catch(e => {
-                genericError(e);
+    const checkUserExistSuccess = (tx, res) => {
+        if (res.rows.length > 0) {
+            //There is a user data in table
+            let query = `UPDATE UserInformation SET EMAIL='${email}',PASSWORD='${password}';`
+            console.log("query" + query);
+            db.transaction((txn) => {
+                txn.executeSql(
+                    query, [], afterRunQuerySuccess, afterRunQueryError
+                )
             });
-    };
-
-    const dropTable = (db) => {
-        console.log('Dropping table...');
-        db.executeSql(`DROP TABLE EMPLOYEE;`)
-            .then(result => dbOpened())
-            .catch(e => {
-                genericError(e);
+        }
+        else {
+            let query = "INSERT INTO UserInformation VALUES('" + username + "','" + password + "');"
+            console.log("query" + query);
+            db.transaction((txn) => {
+                txn.executeSql(
+                    query, [], afterRunQuerySuccess, afterRunQueryError
+                )
             });
-    };
+        }
 
-    const getRecord = (username,password) => {
-        console.log('Selecting records...');
-        db.executeSql(`SELECT * FROM EMPLOYEE WHERE ;`)
-          .then(result => {
-
-          })
-          .catch(e => {
-            genericError(e);
-          });
+        this.props.navigation.navigate("MainPage");
     }
 
-    //-----------------------------Custom Functions End------------------------------
+    const checkUserExistSuccessForFirstLoad = (tx, res) => {
+        if (res.rows.length > 0) {
+            let user = res.rows.item(0);
+            setEmail(user.EMAIL);
+            setPassword(user.PASSWORD);
+            loginClick();
+        }
+    }
 
+    const checkUserForFirstLoad = () => {
+        console.log(`getting user by username and password. username : ${email} password: ${password}`);
+        db.transaction((txn) => {
+            txn.executeSql(`SELECT * FROM UserInformation;`, [], checkUserExistSuccessForFirstLoad, afterRunQueryError);
+        });
+    }
 
+    const saveUserToSqlite = () => {
 
+        //Check user exist
+        console.log(`getting user by username and password. username : ${email} password: ${password}`);
+        db.transaction((txn) => {
+            txn.executeSql(`SELECT * FROM UserInformation;`, [], checkUserExistSuccess, afterRunQueryError);
+        });
 
+        console.log('Inserting records...' + username + "-----" + password);
+        console.log("db" + JSON.stringify(db));
 
-    //----------------------------View Start--------------------------------------
+    }
+
+    const getRecord = (username, password) => {
+        console.log('getRecord...');
+        db.transaction((txn) => {
+            txn.executeSql(`SELECT * FROM UserInformation WHERE EMAIL='${username}' AND  PASSWORD='${password}';`, [], afterRunQuerySuccess, afterRunQueryError);
+        });
+    }
+
+    //#endregion
+
+    //#region View
     return (
         <View
             style={styles.rootView}
@@ -173,7 +202,7 @@ const LoginScreen = () => {
                 style={styles.checkbox}
                 title='Beni Hatırla'
                 checked={rememberMe}
-                onIconPress={rememberMeClick()} />
+                onIconPress={() => rememberMeClick()} />
 
             <Text style={styles.text}>
                 Hala üye değil misin, hemen <Text style={styles.blueText}> Üye ol!</Text>
@@ -185,16 +214,26 @@ const LoginScreen = () => {
                         <Icon name="arrow-right" size={15} color="white" />
                     }
                     title="Giriş Yap"
-                    onPress={() => loginClick()}
+                    onPress={() => insertUserInfo('aaaa', 'bbbb')}
+                />
+            </View>
+
+            <View style={styles.loginButton}>
+                <Button
+                    icon={
+                        <Icon name="arrow-right" size={15} color="white" />
+                    }
+                    title="Getir"
+                    onPress={() => getRecord('aaaa', 'bbbcb')}
                 />
             </View>
         </View>
     );
 
-    //------------------------------View End------------------------------------
+    //#endregion
 };
 
-//---------------------------------Styles Start-----------------------------------
+//#region Styles
 const styles = StyleSheet.create({
     blueText: {
         color: 'blue'
@@ -220,6 +259,6 @@ const styles = StyleSheet.create({
         width: '100%'
     }
 });
-//---------------------------------Styles End-----------------------------------
+//#endregion
 
 export default LoginScreen;
