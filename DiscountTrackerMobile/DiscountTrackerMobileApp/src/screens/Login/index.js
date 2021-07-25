@@ -16,7 +16,7 @@ import { createSemanticDiagnosticsBuilderProgram } from 'typescript';
 
 var db = openDatabase({ name: 'SchoolDatabase.db' });
 
-const LoginScreen = () => {
+const LoginScreen = (props) => {
     const navigation = useNavigation();
 
     //#region Constructors
@@ -37,6 +37,10 @@ const LoginScreen = () => {
     //#endregion
 
     //#region Control Events
+
+    const signUpClick = () => {
+        props.navigation.navigate('Register');
+    }
 
     const rememberMeClick = () => {
         console.log("Remember me click... Value :" + rememberMe);
@@ -63,11 +67,18 @@ const LoginScreen = () => {
             loginRequest(username, encryptedPassword, loginCallback);
         }
     }
+
     // this.props.navigation.navigate('HomeScreen');
 
     //#endregion
 
     //#region Custom Functions 
+
+    const automaticLogin = (username,password) => {
+        var encryptedPassword = md5.str_md5(password.trim());
+        var username = email.trim();
+        loginRequest(username, encryptedPassword, loginCallback);
+    }
 
     const loginCallback = (response, isErrorOccured = false) => {
         if (!isErrorOccured) {
@@ -144,7 +155,7 @@ const LoginScreen = () => {
             let user = res.rows.item(0);
             setEmail(user.EMAIL);
             setPassword(user.PASSWORD);
-            loginClick();
+            automaticLogin();
         }
     }
 
@@ -205,7 +216,7 @@ const LoginScreen = () => {
                 onIconPress={() => rememberMeClick()} />
 
             <Text style={styles.text}>
-                Hala üye değil misin, hemen <Text style={styles.blueText}> Üye ol!</Text>
+                Hala üye değil misin, hemen <Text style={styles.blueText} onPress={() => signUpClick()}> Üye ol!</Text>
             </Text>
 
             <View style={styles.loginButton}>

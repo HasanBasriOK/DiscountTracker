@@ -25,6 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import LoginScreen from "../DiscountTrackerMobileApp/src/screens/Login/index"
+import RegisterScreen from "../DiscountTrackerMobileApp/src/screens/Register/index"
 import MainPage from "../DiscountTrackerMobileApp/src/screens/MainPage/index"
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -95,6 +96,7 @@ const App = () => {
     <NavigationContainer>
     <Stack.Navigator initialRouteName="Login" title="" screenOptions={{ headerShown: false }} >
       <Stack.Screen name="Login" component={LoginScreen} />
+      <Stack.Screen name="Register" component={RegisterScreen} />
       <Stack.Screen name="HomeScreen" component={HomeTabs}/>
     </Stack.Navigator>
   </NavigationContainer>
