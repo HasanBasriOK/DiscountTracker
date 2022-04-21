@@ -105,7 +105,11 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Entities\\DiscountTracker.Entities.csproj": {
+                "projectPath": "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Entities\\DiscountTracker.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -117,6 +121,16 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

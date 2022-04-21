@@ -1,20 +1,16 @@
 using DiscountTracker.Business.Abstraction;
 using DiscountTracker.Business.Concrete;
+using DiscountTracker.Common.QueueManagement.RabbitMq;
 using DiscountTracker.DataAccess.MongoDB;
 using DiscountTracker.DataAccess.MongoDB.Abstraction;
 using DiscountTracker.DataAccess.MongoDB.Repositories;
 using DiscountTracker.Utilities.Logger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
 
 namespace DiscountTracker.Api
 {
@@ -30,10 +26,6 @@ namespace DiscountTracker.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<DataAccess.MongoDB.MongoDbSettings>(Configuration.GetSection("MongoDbSettings"));
-            services.AddSingleton<Utilities.Logger.ILogger, FileLogger>();
-
-
             #region Data Access
             services.AddSingleton(typeof(MongoDbSettings));
             services.AddSingleton<IDtAnnouncementDal, DtAnnouncementMongoDbDal>();
@@ -47,7 +39,15 @@ namespace DiscountTracker.Api
             services.AddSingleton<IProductService, ProductService>();
             #endregion
 
-           
+            #region Options
+            services.Configure<MongoDbSettings>(Configuration.GetSection("MongoDbSettings"));
+            services.Configure<RabbitMqConfiguration>(Configuration.GetSection("RabbitMqConfiguration"));
+            #endregion
+
+            #region Common
+            services.AddSingleton<ILogger, FileLogger>();
+            services.AddSingleton<IRabbitMqManager, RabbitMqManager>();
+            #endregion
 
             services.AddControllers();
             services.AddSwaggerGen(options => {
@@ -82,10 +82,6 @@ namespace DiscountTracker.Api
             {
                 endpoints.MapControllers();
             });
-
-
         }
-
-    
     }
 }
