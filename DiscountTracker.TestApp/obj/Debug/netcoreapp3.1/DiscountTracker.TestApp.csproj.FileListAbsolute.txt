@@ -61,3 +61,5 @@ C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracke
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.TestApp\obj\Debug\netcoreapp3.1\DiscountTracker.TestApp.dll
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.TestApp\obj\Debug\netcoreapp3.1\DiscountTracker.TestApp.pdb
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.TestApp\obj\Debug\netcoreapp3.1\DiscountTracker.TestApp.genruntimeconfig.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.TestApp\bin\Debug\netcoreapp3.1\DiscountTracker.Common.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.TestApp\bin\Debug\netcoreapp3.1\DiscountTracker.Common.pdb

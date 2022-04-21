@@ -40,3 +40,5 @@ C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracke
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Business\obj\Debug\netstandard2.1\DiscountTracker.Business.csproj.CopyComplete
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Business\obj\Debug\netstandard2.1\DiscountTracker.Business.dll
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Business\obj\Debug\netstandard2.1\DiscountTracker.Business.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Business\bin\Debug\netstandard2.1\DiscountTracker.Common.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Business\bin\Debug\netstandard2.1\DiscountTracker.Common.pdb

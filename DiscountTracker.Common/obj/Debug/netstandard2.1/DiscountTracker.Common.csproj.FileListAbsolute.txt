@@ -1,0 +1,10 @@
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\bin\Debug\netstandard2.1\DiscountTracker.Common.deps.json
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\bin\Debug\netstandard2.1\DiscountTracker.Common.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\bin\Debug\netstandard2.1\DiscountTracker.Common.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\obj\Debug\netstandard2.1\DiscountTracker.Common.csproj.AssemblyReference.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\obj\Debug\netstandard2.1\DiscountTracker.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\obj\Debug\netstandard2.1\DiscountTracker.Common.AssemblyInfoInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\obj\Debug\netstandard2.1\DiscountTracker.Common.AssemblyInfo.cs
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\obj\Debug\netstandard2.1\DiscountTracker.Common.csproj.CoreCompileInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\obj\Debug\netstandard2.1\DiscountTracker.Common.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Common\obj\Debug\netstandard2.1\DiscountTracker.Common.pdb

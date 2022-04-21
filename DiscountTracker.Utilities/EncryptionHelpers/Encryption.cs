@@ -2,17 +2,16 @@
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using DiscountTracker.Common.Constants;
 
 namespace DiscountTracker.Utilities.EncryptionHelpers
 {
     public class Encryption
     {
 
-        static string initializeVector = "TracDiscountTrac";
-
         public static string Encrypt(string plainText, string key)
         {
-            var iv = Encoding.UTF8.GetBytes(initializeVector);
+            var iv = Encoding.UTF8.GetBytes(EncryptionConstants.InitializeVectorStr);
 
             using var aes = Aes.Create();
             aes.Key = Encoding.UTF8.GetBytes(key);
@@ -34,7 +33,7 @@ namespace DiscountTracker.Utilities.EncryptionHelpers
 
         public static string Decrypt(string cipherText, string key)
         {
-            var iv = Encoding.UTF8.GetBytes(initializeVector);
+            var iv = Encoding.UTF8.GetBytes(EncryptionConstants.InitializeVectorStr);
             var buffer = Convert.FromBase64String(cipherText);
 
             using var aes = Aes.Create();

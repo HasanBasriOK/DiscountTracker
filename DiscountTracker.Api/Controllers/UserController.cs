@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DiscountTracker.Business.Abstraction;
-using DiscountTracker.DataAccess.MongoDB.Abstraction;
+﻿using DiscountTracker.Business.Abstraction;
 using DiscountTracker.Entities.Dto;
-using DiscountTracker.Entities.MongoDB;
-using DiscountTracker.Utilities;
 using DiscountTracker.Utilities.EncryptionHelpers;
+using DiscountTracker.Common.Constants;
 using Microsoft.AspNetCore.Mvc;
+
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -25,8 +20,6 @@ namespace DiscountTracker.Api.Controllers
         [HttpPost("CreateUser")]
         public ApiResponse<CreateUserResponse> CreateUser(CreateUserRequest request)
         {
-
-            var encryptedPass = Encryption.Encrypt("123456", Constants.ClientEncryptionKey);
             var response = new ApiResponse<CreateUserResponse>();
             var createdUser= _userService.CreateUser(request);
 

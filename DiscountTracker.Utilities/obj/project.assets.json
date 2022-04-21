@@ -130,6 +130,16 @@
             "rid": "win"
           }
         }
+      },
+      "DiscountTracker.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DiscountTracker.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountTracker.Common.dll": {}
+        }
       }
     }
   },
@@ -463,10 +473,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DiscountTracker.Common/1.0.0": {
+      "type": "project",
+      "path": "../DiscountTracker.Common/DiscountTracker.Common.csproj",
+      "msbuildProject": "../DiscountTracker.Common/DiscountTracker.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "DiscountTracker.Common >= 1.0.0",
       "log4net >= 2.0.12"
     ]
   },
@@ -500,7 +516,11 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Common\\DiscountTracker.Common.csproj": {
+              "projectPath": "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Common\\DiscountTracker.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

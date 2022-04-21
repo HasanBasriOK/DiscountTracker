@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.1/": {
       "DiscountTracker.Utilities/1.0.0": {
         "dependencies": {
+          "DiscountTracker.Common": "1.0.0",
           "log4net": "2.0.12"
         },
         "runtime": {
@@ -115,6 +116,11 @@
             "fileVersion": "4.6.26515.6"
           }
         }
+      },
+      "DiscountTracker.Common/1.0.0": {
+        "runtime": {
+          "DiscountTracker.Common.dll": {}
+        }
       }
     }
   },
@@ -193,6 +199,11 @@
       "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
       "path": "system.security.principal.windows/4.5.0",
       "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    },
+    "DiscountTracker.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

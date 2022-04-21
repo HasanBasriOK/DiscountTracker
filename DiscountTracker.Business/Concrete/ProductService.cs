@@ -8,6 +8,7 @@ using DiscountTracker.Utilities;
 using DiscountTracker.Entities.MongoDB;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using DiscountTracker.Common.Constants;
 
 namespace DiscountTracker.Business.Concrete
 {
@@ -36,7 +37,7 @@ namespace DiscountTracker.Business.Concrete
                     return new SuccessResult("Successfull");
                 }
                 else
-                    return new ErrorResult(Constants.UserAlreadyTrackingThisProduct);
+                    return new ErrorResult(MessageConstants.UserAlreadyTrackingThisProduct);
             }
             //ürün hiç eklenmemiş takibe başla
             else

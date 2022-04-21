@@ -104,10 +104,21 @@
           }
         }
       },
+      "DiscountTracker.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DiscountTracker.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountTracker.Common.dll": {}
+        }
+      },
       "DiscountTracker.Utilities/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "DiscountTracker.Common": "1.0.0",
           "log4net": "2.0.12"
         },
         "compile": {
@@ -332,6 +343,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DiscountTracker.Common/1.0.0": {
+      "type": "project",
+      "path": "../DiscountTracker.Common/DiscountTracker.Common.csproj",
+      "msbuildProject": "../DiscountTracker.Common/DiscountTracker.Common.csproj"
     },
     "DiscountTracker.Utilities/1.0.0": {
       "type": "project",

@@ -7,8 +7,8 @@ using DiscountTracker.DataAccess.MongoDB.Abstraction;
 using DiscountTracker.Entities.Core;
 using DiscountTracker.Entities.Dto;
 using DiscountTracker.Entities.MongoDB;
-using DiscountTracker.Utilities;
 using DiscountTracker.Utilities.EncryptionHelpers;
+using DiscountTracker.Common.Constants;
 using System.Linq;
 
 namespace DiscountTracker.Business.Concrete
@@ -22,21 +22,20 @@ namespace DiscountTracker.Business.Concrete
             _userDal = userdal;
         }
 
-
         [HandleExceptionAspect]
         public IDataResult<DtUser> Login(LoginRequest request)
         {
-            var password = Encryption.Encrypt(Encryption.Decrypt(request.Password, Constants.ClientEncryptionKey),Constants.ServerEncryptionKey);
+            var decryptedClientPassword = Encryption.Decrypt(request.Password, EncryptionConstants.ClientEncryptionKey);
+            var password = Encryption.Encrypt(decryptedClientPassword, EncryptionConstants.ServerEncryptionKey);
             return new SuccessDataResult<DtUser>(_userDal.GetAsync(x => x.Email == request.Email && x.Password == password).Result);
         }
 
         [HandleExceptionAspect]
         public IDataResult<DtUser> CreateUser(CreateUserRequest request)
         {
-
             if (_userDal.Get(x=> x.Email==request.Email).FirstOrDefault() != null)
             {
-                return new ErrorDataResult<DtUser>(Constants.ThisEmailIsUsingAlready);
+                return new ErrorDataResult<DtUser>(MessageConstants.ThisEmailIsUsingAlready);
             }
 
             var user = new DtUser();
@@ -49,7 +48,9 @@ namespace DiscountTracker.Business.Concrete
             user.IsTransferred = false;
             user.Lastname = request.Lastname;
             user.RegisterDate = DateTime.Now;
-            user.Password = Encryption.Encrypt(Encryption.Decrypt(request.Password, Constants.ClientEncryptionKey), Constants.ServerEncryptionKey);
+
+            var decryptedClientPassword = Encryption.Decrypt(request.Password, EncryptionConstants.ClientEncryptionKey);
+            user.Password = Encryption.Encrypt(decryptedClientPassword, EncryptionConstants.ServerEncryptionKey);
 
             return new SuccessDataResult<DtUser>(_userDal.AddAsync(user).Result);
         }

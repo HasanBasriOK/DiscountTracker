@@ -447,6 +447,16 @@
           "bin/placeholder/DiscountTracker.Business.dll": {}
         }
       },
+      "DiscountTracker.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DiscountTracker.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DiscountTracker.Common.dll": {}
+        }
+      },
       "DiscountTracker.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -482,6 +492,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "DiscountTracker.Common": "1.0.0",
           "log4net": "2.0.12"
         },
         "compile": {
@@ -1287,6 +1298,11 @@
       "type": "project",
       "path": "../DiscountTracker.Business/DiscountTracker.Business.csproj",
       "msbuildProject": "../DiscountTracker.Business/DiscountTracker.Business.csproj"
+    },
+    "DiscountTracker.Common/1.0.0": {
+      "type": "project",
+      "path": "../DiscountTracker.Common/DiscountTracker.Common.csproj",
+      "msbuildProject": "../DiscountTracker.Common/DiscountTracker.Common.csproj"
     },
     "DiscountTracker.DataAccess/1.0.0": {
       "type": "project",

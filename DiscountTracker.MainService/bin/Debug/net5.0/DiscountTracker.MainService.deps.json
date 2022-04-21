@@ -642,6 +642,11 @@
           "DiscountTracker.Business.dll": {}
         }
       },
+      "DiscountTracker.Common/1.0.0": {
+        "runtime": {
+          "DiscountTracker.Common.dll": {}
+        }
+      },
       "DiscountTracker.DataAccess/1.0.0": {
         "dependencies": {
           "DiscountTracker.Entities": "1.0.0",
@@ -665,6 +670,7 @@
       },
       "DiscountTracker.Utilities/1.0.0": {
         "dependencies": {
+          "DiscountTracker.Common": "1.0.0",
           "log4net": "2.0.12"
         },
         "runtime": {
@@ -1058,6 +1064,11 @@
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
     },
     "DiscountTracker.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountTracker.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,5 +1,5 @@
 ﻿using System;
-using DiscountTracker.Utilities;
+using DiscountTracker.Common.Constants;
 
 namespace DiscountTracker.TestApp
 {
@@ -7,7 +7,7 @@ namespace DiscountTracker.TestApp
     {
         static void Main(string[] args)
         {
-            var encryptedPassword= Utilities.EncryptionHelpers.Encryption.Encrypt("12345", Constants.ClientEncryptionKey);
+            var encryptedPassword= Utilities.EncryptionHelpers.Encryption.Encrypt("123456", EncryptionConstants.ClientEncryptionKey);
             Console.WriteLine(encryptedPassword);
             Console.Read();
             //CLGJB5r96IYaMRmzJqhm2g==

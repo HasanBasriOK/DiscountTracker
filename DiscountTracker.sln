@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountTracker.Entities", "DiscountTracker.Entities\DiscountTracker.Entities.csproj", "{8BFB0C7E-B9F3-4CEA-9C73-B551BB540DF5}"
 EndProject
@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountTracker.MainService
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountTracker.ReportService", "DiscountTracker.ReportService\DiscountTracker.ReportService.csproj", "{12BE620F-1804-4359-B5E8-0CCCF5CA7143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.Utilities", "DiscountTracker.Utilities\DiscountTracker.Utilities.csproj", "{3E09F2AF-1196-41A5-81AC-4E51D8C533CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountTracker.Utilities", "DiscountTracker.Utilities\DiscountTracker.Utilities.csproj", "{3E09F2AF-1196-41A5-81AC-4E51D8C533CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.Business", "DiscountTracker.Business\DiscountTracker.Business.csproj", "{5EFFC994-8F1C-48AA-88E0-64CD730B94F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountTracker.Business", "DiscountTracker.Business\DiscountTracker.Business.csproj", "{5EFFC994-8F1C-48AA-88E0-64CD730B94F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.TestApp", "DiscountTracker.TestApp\DiscountTracker.TestApp.csproj", "{D982A29B-ADF4-49B7-8EA9-5EF2CA52EEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountTracker.TestApp", "DiscountTracker.TestApp\DiscountTracker.TestApp.csproj", "{D982A29B-ADF4-49B7-8EA9-5EF2CA52EEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountTracker.Common", "DiscountTracker.Common\DiscountTracker.Common.csproj", "{C327C070-B2B1-4F7E-B2B4-D1CC5263EFA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D982A29B-ADF4-49B7-8EA9-5EF2CA52EEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D982A29B-ADF4-49B7-8EA9-5EF2CA52EEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D982A29B-ADF4-49B7-8EA9-5EF2CA52EEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C327C070-B2B1-4F7E-B2B4-D1CC5263EFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C327C070-B2B1-4F7E-B2B4-D1CC5263EFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C327C070-B2B1-4F7E-B2B4-D1CC5263EFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C327C070-B2B1-4F7E-B2B4-D1CC5263EFA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -142,3 +142,5 @@ C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracke
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\DiscountTracker.MainService.genruntimeconfig.cache
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.MainService\obj\Debug\net5.0\ref\DiscountTracker.MainService.dll
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\appsettings.json
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.Common.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.MainService\bin\Debug\net5.0\DiscountTracker.Common.pdb
