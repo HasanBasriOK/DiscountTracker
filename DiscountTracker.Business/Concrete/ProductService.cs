@@ -36,9 +36,7 @@ namespace DiscountTracker.Business.Concrete
                     return new SuccessResult("Successfull");
                 }
                 else
-                {
                     return new ErrorResult(Constants.UserAlreadyTrackingThisProduct);
-                }
             }
             //ürün hiç eklenmemiş takibe başla
             else

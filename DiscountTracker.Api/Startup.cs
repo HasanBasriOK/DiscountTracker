@@ -50,14 +50,28 @@ namespace DiscountTracker.Api
            
 
             services.AddControllers();
+            services.AddSwaggerGen(options => {
+
+                options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title ="Discount Tracker Api",
+                    Description = "An Api for db communication on discount tracker app"
+                });
+
+            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(options =>
+                {
+                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger");
+                    options.RoutePrefix = "swagger";
+                });
             }
 
             app.UseRouting();
@@ -68,6 +82,8 @@ namespace DiscountTracker.Api
             {
                 endpoints.MapControllers();
             });
+
+
         }
 
     

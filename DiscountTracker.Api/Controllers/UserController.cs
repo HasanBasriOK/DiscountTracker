@@ -14,9 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DiscountTracker.Api.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         private readonly IUserService _userService;
         public UserController(IUserService userService)
@@ -27,6 +25,8 @@ namespace DiscountTracker.Api.Controllers
         [HttpPost("CreateUser")]
         public ApiResponse<CreateUserResponse> CreateUser(CreateUserRequest request)
         {
+
+            var encryptedPass = Encryption.Encrypt("123456", Constants.ClientEncryptionKey);
             var response = new ApiResponse<CreateUserResponse>();
             var createdUser= _userService.CreateUser(request);
 

@@ -11,7 +11,7 @@ namespace DiscountTracker.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class AnnouncementController : Controller
+    public class AnnouncementController : BaseController
     {
         private readonly IDtAnnouncementDal _announcementDal;
         public AnnouncementController(IDtAnnouncementDal announcementDal)

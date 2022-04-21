@@ -10,9 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DiscountTracker.Api.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class ProductController : Controller
+    public class ProductController : BaseController
     {
         IProductService _productService;
 

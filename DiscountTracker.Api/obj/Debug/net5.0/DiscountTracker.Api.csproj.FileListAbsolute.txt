@@ -113,3 +113,8 @@ C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracke
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\refint\DiscountTracker.Api.dll
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.genruntimeconfig.cache
 C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\ref\DiscountTracker.Api.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Api\obj\Debug\net5.0\DiscountTracker.Api.MvcApplicationPartsAssemblyInfo.cs
