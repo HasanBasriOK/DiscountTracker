@@ -16,3 +16,13 @@ C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Utili
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.csproj.CoreCompileInputs.cache
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.dll
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\bin\Debug\netstandard2.1\DiscountTracker.Utilities.deps.json
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\bin\Debug\netstandard2.1\DiscountTracker.Utilities.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\bin\Debug\netstandard2.1\DiscountTracker.Utilities.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.csproj.AssemblyReference.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.AssemblyInfoInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.AssemblyInfo.cs
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.Utilities\obj\Debug\netstandard2.1\DiscountTracker.Utilities.pdb

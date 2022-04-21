@@ -1,4 +1,5 @@
 ﻿using DiscountTracker.Entities.MongoDB;
+using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -14,9 +15,9 @@ namespace DiscountTracker.DataAccess.MongoDB
         protected readonly IMongoCollection<T> Collection;
         private readonly MongoDbSettings settings;
 
-        protected MongoDbRepositoryBase(MongoDbSettings options)
+        protected MongoDbRepositoryBase(IOptions<MongoDbSettings> options)
         {
-            this.settings = options;
+            this.settings = options.Value;
             var client = new MongoClient("mongodb://localhost:27017");
             var db = client.GetDatabase("DiscountTracker");
             this.Collection = db.GetCollection<T>(typeof(T).Name.ToLowerInvariant());

@@ -6,7 +6,7 @@ using HtmlAgilityPack;
 
 namespace DiscountTracker.MainService.Managers
 {
-    public class HepsiburadaManager:IECommerceManager
+    public class HepsiburadaManager : IECommerceManager
     {
         public double GetPrice(string productUrl)
         {
@@ -26,7 +26,7 @@ namespace DiscountTracker.MainService.Managers
             HtmlAgilityPack.HtmlDocument document = new HtmlAgilityPack.HtmlDocument();
             document.LoadHtml(html);
             HtmlNode priceNode = document.DocumentNode.SelectSingleNode("//span[@itemprop='price']");
-            var  priceStr = priceNode.GetAttributeValue("content", "");
+            var priceStr = priceNode.GetAttributeValue("content", "");
             price = Convert.ToDouble(priceStr);
 
             return price;

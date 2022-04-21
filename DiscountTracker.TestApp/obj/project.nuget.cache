@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oiDinBwOoRXh3Bx9d4g0YgyFF9oNRO34yNgd5bXLraHUulVCbkoQLWmrdoLBOh+YvT4+qlcbj1weJzf8yD3xSA==",
+  "dgSpecHash": "feEq8Thi/9dfA8C5q4n4JOpCO65NSy0QJYeVF7VX60wk4KyXz+Fh93ltbFCZJTF7XkIhKt9RRRMgdGKGJFY1ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.TestApp\\DiscountTracker.TestApp.csproj",
+  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.TestApp\\DiscountTracker.TestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",

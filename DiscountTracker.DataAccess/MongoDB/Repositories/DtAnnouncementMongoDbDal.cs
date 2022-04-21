@@ -1,13 +1,11 @@
 ﻿using DiscountTracker.Entities.MongoDB;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Microsoft.Extensions.Options;
 
 namespace DiscountTracker.DataAccess.MongoDB
 {
     public class DtAnnouncementMongoDbDal : MongoDbRepositoryBase<DtAnnouncement>, IDtAnnouncementDal
     {
-        public DtAnnouncementMongoDbDal(MongoDbSettings options) : base(options)
+        public DtAnnouncementMongoDbDal(IOptions<MongoDbSettings> options) : base(options)
         {
         }
     }

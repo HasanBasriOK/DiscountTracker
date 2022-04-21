@@ -1,21 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj": {}
+    "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj": {
+    "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj",
         "projectName": "DiscountTracker.Utilities",
-        "projectPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj",
+        "projectPath": "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj",
         "packagesPath": "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Utilities\\obj\\",
+        "outputPath": "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WY - Hasan Basri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,6 +24,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -62,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jCWSHBDfqneI1xCyC7to1efYBJfcRuF7JLpp3TiNuflym26+5Bov/GTezpSPOwMpJxoHTvYWfw9kFLxgYOXNaA==",
+  "dgSpecHash": "uP39J4uxOVC9C77Sry46+m/maXZZ383BvDVkMgULuIMOtuoHwfQGvSpCaPFf6DKSOwgDww0ik8jvVhfROllprA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\Documents\\GitHub\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj",
+  "projectFilePath": "C:\\Users\\WY - Hasan Basri\\source\\my own workspace\\DiscountTracker\\DiscountTracker.Utilities\\DiscountTracker.Utilities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\WY - Hasan Basri\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",

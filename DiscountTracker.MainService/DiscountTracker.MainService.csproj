@@ -7,6 +7,9 @@
 
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.33" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Managers\" />
@@ -16,5 +19,10 @@
     <ProjectReference Include="..\DiscountTracker.Business\DiscountTracker.Business.csproj" />
     <ProjectReference Include="..\DiscountTracker.Entities\DiscountTracker.Entities.csproj" />
     <ProjectReference Include="..\DiscountTracker.Utilities\DiscountTracker.Utilities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

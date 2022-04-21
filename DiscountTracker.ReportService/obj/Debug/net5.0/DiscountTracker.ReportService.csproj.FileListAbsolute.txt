@@ -29,3 +29,19 @@ C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.Repor
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\ref\DiscountTracker.ReportService.dll
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.pdb
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.genruntimeconfig.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\bin\Debug\net5.0\DiscountTracker.ReportService.exe
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\bin\Debug\net5.0\DiscountTracker.ReportService.deps.json
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\bin\Debug\net5.0\DiscountTracker.ReportService.runtimeconfig.json
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\bin\Debug\net5.0\DiscountTracker.ReportService.runtimeconfig.dev.json
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\bin\Debug\net5.0\DiscountTracker.ReportService.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\bin\Debug\net5.0\DiscountTracker.ReportService.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.csproj.AssemblyReference.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.AssemblyInfoInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.AssemblyInfo.cs
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.csproj.CoreCompileInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\refint\DiscountTracker.ReportService.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\DiscountTracker.ReportService.genruntimeconfig.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.ReportService\obj\Debug\net5.0\ref\DiscountTracker.ReportService.dll

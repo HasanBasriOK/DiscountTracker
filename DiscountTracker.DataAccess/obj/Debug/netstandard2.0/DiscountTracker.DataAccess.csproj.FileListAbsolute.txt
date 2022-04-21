@@ -28,3 +28,19 @@ C:/Users/WY - Hasan Basri/Documents/GitHub/DiscountTracker/DiscountTracker.DataA
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfoInputs.cache
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfo.cs
 C:\Users\WY - Hasan Basri\Documents\GitHub\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\snappy32.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\snappy64.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\libzstd.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.DataAccess.deps.json
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.DataAccess.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.DataAccess.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.Entities.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\bin\Debug\netstandard2.0\DiscountTracker.Entities.pdb
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csproj.AssemblyReference.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfoInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.AssemblyInfo.cs
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.csproj.CopyComplete
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.dll
+C:\Users\WY - Hasan Basri\source\my own workspace\DiscountTracker\DiscountTracker.DataAccess\obj\Debug\netstandard2.0\DiscountTracker.DataAccess.pdb
